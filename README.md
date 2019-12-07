@@ -17,3 +17,8 @@ Commands
 - kubect get services - To get list of Services
 - kubectl get pvc - To get list of Persistent Volume Claims
 - kubectl get pv - To get list of Persistent Volumes
+
+
+#Disadvantages of using Minikube#
+
+Code change will not update the running pod. Then we have to manually update pod in Imperative way by tagging appropriate DOCKER_IMAGE with an ID.
