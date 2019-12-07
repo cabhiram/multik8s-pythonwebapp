@@ -3,9 +3,9 @@ Python+Flask web application running locally in Kubernetes cluster using Minikub
 
 Steps to run Python Application using Minikube:
 
-- Install Kubectl
-- Install  minikube (recommended to install Virtual env)
-- Run *kubectl get pods* to check whether everything is working and looks finr
+- Install Kubectl.
+- Install  minikube (recommended to install Virtual env).
+- Run *kubectl get pods* to check whether everything is working and looks fine.
 - Then do a *kubectl apply -f k8s/* to setup Kubernetes cluster and run Python application in it.
 - *BOOM* its ready.
 
