@@ -21,4 +21,4 @@ Commands
 
 #Disadvantages of using Minikube#
 
-Code change will not update the running pod. Then we have to manually update pod in Imperative way by tagging appropriate DOCKER_IMAGE with an ID.
+Code change will not update the running pod. Then we have to manually update pod in Imperative way by tagging appropriate DOCKER_IMAGE with TAG_ID.
