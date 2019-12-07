@@ -12,8 +12,8 @@ Steps to run Python Application using Minikube:
 
 Commands
 
-kubectl get pods  - To get list of Pods
-kubectl get nodes - To get list of Nodes
-kubect get services - To get list of Services
-kubectl get pvc - To get list of Persistent Volume Claims
-kubectl get pv - To get list of Persistent Volumes
+- kubectl get pods  - To get list of Pods
+- kubectl get nodes - To get list of Nodes
+- kubect get services - To get list of Services
+- kubectl get pvc - To get list of Persistent Volume Claims
+- kubectl get pv - To get list of Persistent Volumes
