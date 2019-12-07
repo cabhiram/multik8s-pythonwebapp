@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      component: clientapp
+  template:
+    metadata:
+      labels:
+        component: clientapp
+    spec:
+      volumes:
+        - name: clientapp-storage
+          persistentVolumeClaim:
+            claimName: client-app-persistent-volume-claim
+      containers:
+        - name: clientapp
+          image: cabhiram/multik8s-app
+          ports:
+            - containerPort: 7000
+          volumeMounts:
+            - name: clientapp-storage
+              mountPath: /tmp/static
