@@ -19,6 +19,6 @@ Commands
 - kubectl get pv - To get list of Persistent Volumes
 
 
-#Disadvantages of using Minikube#
+# Disadvantages of using Minikube
 
 Code change will not update the running pod. Then we have to manually update pod in Imperative way by tagging appropriate DOCKER_IMAGE with TAG_ID.
