@@ -5,7 +5,7 @@ Steps to run Python Application using Minikube:
 
 - Install Kubectl
 - Install  minikube (recommended to install Virtual env)
-- Check *kubectl get pods* to check whether its working and everything looks fine
+- Run *kubectl get pods* to check whether everything is working and looks finr
 - Then do a *kubectl apply -f k8s/* to setup Kubernetes cluster and run Python application in it.
 - *BOOM* its ready.
 
